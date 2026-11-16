@@ -1,0 +1,42 @@
+{
+  "launch_date": "2026-11-16",
+  "beta": true,
+  "game": {
+    "lives": 3,
+    "reach": 0.5,
+    "slack": 0.08,
+    "points_by_hops": [
+      10,
+      6,
+      4,
+      2
+    ],
+    "quality_bonus": 0.5,
+    "life_bonus": 2,
+    "tiers": {
+      "gold": 0.8,
+      "silver": 0.4
+    }
+  },
+  "scoring": {
+    "vocab_size": 36000,
+    "valid_z": 2.5,
+    "perfect_count": 12,
+    "perfect_min_strength": 2.0,
+    "weights": {
+      "numberbatch": 0.6,
+      "model2vec": 0.4
+    },
+    "model2vec_model": "minishlab/potion-base-32M",
+    "auto_flies": 1,
+    "auto_fly_bonus": 3,
+    "quality_bands": [
+      0.1,
+      0.2,
+      0.3,
+      0.7,
+      0.8,
+      0.9
+    ]
+  }
+}

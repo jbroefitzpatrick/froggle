@@ -1,0 +1,12 @@
+# Model downloads (~400 MB) and Python caches
+pipeline/cache/
+__pycache__/
+
+# Private planning: the shared workbook (notes + future answers) and its reports
+content/Froggle Schedule.xlsx
+~$*.xlsx
+pipeline/reports/
+
+# Local build output (the public site is docs/)
+/data/
+/dist/
